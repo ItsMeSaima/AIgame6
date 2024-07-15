@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Changa:wght@200..800&family=Rubik+Glitch&family=Share+Tech&display=swap');
+body
+{
+    background-image: url('https://img.freepik.com/free-vector/gradient-neon-light-background_23-2149332915.jpg');
+background-size: cover;
+
+}
+
+
+.heading
+{
+width: 100%;
+text-align: center;
+background: transparent;
+border: 3px solid whitesmoke;
+     box-shadow: 0 0 1px #ff51d9, 0 0 2px #7e61ff, 0 0 6px #0ecfff, 0 0 12px #f827ff, inset 0 0 1px #ae90ff, inset 0 0 2px #6730ff, inset 0 0 6px #6d12ff, inset 0 0 12px #37e1ff;
+
+}
+.heading:hover
+{
+width: 100%;
+text-align: center;
+background: transparent;
+
+border: 3px solid whitesmoke;
+     box-shadow: 0 0 1px #ff51d9, 0 0 2px #7e61ff, 0 0 6px #0ecfff, 0 0 12px #f827ff, inset 0 0 1px #ae90ff, inset 0 0 2px #6730ff, inset 0 0 6px #6d12ff, inset 0 0 12px #37e1ff;
+}
+.heading h1{
+    display: inline;
+    text-align: center;
+font-family: rubik glitch;
+font-size: 55px;
+
+background: linear-gradient(white,#783fff 50% , #ff68de 50%);
+-webkit-background-clip: text;
+        background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+text-shadow: 2px 2px 2px white;
+   margin-left: 160px;
+ 
+   
+   
+     border-radius: 5px;
+     font-style: italic;
+     text-decoration: underline;
+    border-width:5px;
+    }
+   
+ 
+.heading button{
+    float: right;
+    border: 1px solid white;
+    color: black;
+    font-size: 22px;
+    font-family: share tech
+    ;
+    border-style: inset;
+    border-color: white;
+    background: white;
+    border-radius: 1px;
+  
+}
+.heading button:hover{
+    float: right;
+    border: 1px solid white;
+    color: black;
+    font-size: 22px;
+    font-family:share tech
+    ;
+    border-style: inset;
+    border-color: white;
+    background: white;
+    border-radius: 1px;
+}
+
+#copy_right_footer{
+    width: 100%;
+    background-color: white;
+    color: rgb(88, 85, 85);
+    text-shadow: 1px 1px 1px #585555;
+    font-family: changa;
+    text-align: center;
+    font-size: 19px; 
+
+    bottom: 0;
+    position: fixed;
+}
+
+/*start of code for play button*/
+
+#play
+{
+font-size: 30px;
+font-family: share tech;
+font-weight: bolder;
+
+font-style:italic;
+background-color: #6730ff;
+border: 3px solid whitesmoke;
+     box-shadow: 0 0 1px #ff51d9, 0 0 2px #7e61ff, 0 0 6px #0ecfff, 0 0 12px #f827ff, inset 0 0 1px #ae90ff, inset 0 0 2px #6730ff, inset 0 0 6px #6d12ff, inset 0 0 12px #37e1ff;
+}
+#play {
+    border: none;
+    color: #000;
+  }
+ #play:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+  #play:hover {
+    color: #000;
+ 
+  }
+
+
+#play:hover{
+    
+font-size: 30px;
+font-family: share tech;
+font-weight: bolder;
+
+font-style:italic;
+background-color: #e664d4;
+border-width: 10px;
+     box-shadow: 0 0 1px #ff51d9, 0 0 2px #ff03c0, 0 0 6px #ff87e1, 0 0 12px #f827ff, inset 0 0 1px #f343b8, inset 0 0 2px #b499ff, inset 0 0 6px #916acf, inset 0 0 12px #ff9fe7;
+border-radius: 5px;
+   transition: .5s;
+}
+
+/*end of code for play button*/
+
+#restart
+{
+font-size: 25px;
+font-family: share tech;
+background-color:#af0db4;
+border-color: #af0db4;
+border-style: outset;
+width: 10%;
+}
+
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+
+canvas 
+  {
+      border:3px solid white;
+      border-radius: 20px;
+      box-shadow:  5px 5px 5px white;
+      margin-left:40px;
+  }
+
+  #status{
+    font-family: rubik glitch;
+    font-size: 17px;
+    border-radius: 1px;
+    font-style: italic;
+    border: whitesmoke;
+    box-shadow:2px 1px 3px white;
+  }
